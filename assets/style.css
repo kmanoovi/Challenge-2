@@ -1,12 +1,22 @@
-body {
+* {
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2%;
 }
 
 main {
-    
+    display: flex;
+    margin-top: 2%;
 }
 
 .header {
+
+}
+
+.sub-header {
 
 }
 
