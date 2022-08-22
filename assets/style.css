@@ -25,14 +25,17 @@ nav {
     font-weight: 300;
 }
 
-h1 {
-    font-size: 100%;
-    font-weight: 200;
-    text-align: end;
+.container {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    color: white;
 }
-img {
-    max-width: 100%;
-    height: auto;
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
 }
 
 .sub-header {
@@ -43,6 +46,22 @@ img {
     padding: 3px;
 }
 
-.main-header {
-
+.box {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
 }
+
+.box header {
+    padding: 20px;
+    background: rgb(76, 118, 79);
+    color: white;
+}
+
+ footer {
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
