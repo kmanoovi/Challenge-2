@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+* {
+    background-color: rgb(154, 196, 163);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 2%;
@@ -13,6 +17,7 @@ main {
 }
 
 .header {
+    margin-left: 1500px;
     font-size: 300%;
     font-weight: 500;
     font-style: italic;
@@ -20,7 +25,24 @@ main {
     flex: 3 0 100px;
 }
 
+.button {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:rgb(35, 66, 53);
+    color:rgb(250, 251, 235);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 1500px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
 nav {
+    margin-left: 1300px;
     font-size: 200%;
     font-weight: 300;
 }
@@ -29,13 +51,19 @@ nav {
     position: relative;
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: rgb(250, 251, 235);
 }
 
 .bottom-right {
     position: absolute;
     bottom: 8px;
     right: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: 550px;
+    box-shadow: 0 4px 8px 0;
 }
 
 .sub-header {
@@ -57,11 +85,19 @@ nav {
 .box header {
     padding: 20px;
     background: rgb(76, 118, 79);
-    color: white;
+    opacity: .6;
+    color: rgb(250, 251, 235);
 }
 
- footer {
+.box p {
+    padding: 10px;
+    background: rgb(250, 251, 235);
+    color: rgb(35, 66, 53);
+}
+
+h1 {
     text-align: center;
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    color:rgb(35, 66, 53);
  }
