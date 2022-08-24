@@ -2,13 +2,10 @@
     box-sizing: border-box;
 }
 
-* {
-    background-color: rgb(154, 196, 163);
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 2%;
+    background-color: rgb(118, 141, 118);
 }
 
 main {
@@ -16,29 +13,39 @@ main {
     margin-top: 2%;
 }
 
+.mountain {
+    background-image: url("./Header-IMG.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-color: rgb(76, 118, 79);
+    min-height: 600px;
+}
+
 .header {
-    margin-left: 1500px;
     font-size: 300%;
     font-weight: 500;
+    color: rgb(253, 248, 210);
     font-style: italic;
     display: flex;
     flex: 3 0 100px;
 }
 
 .button {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    border:rgb(35, 66, 53);
-    color:rgb(250, 251, 235);
-    padding: 15px 32px;
+    border-style: solid;
+    border-color: white;
+    padding: 30px;
     text-align: center;
     display: inline-block;
-    margin-left: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    margin: 0px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: white;
+    background-color: rgb(103, 211, 112);
+    opacity: 0.9;
 }
 
 nav {
@@ -51,12 +58,12 @@ nav {
     position: relative;
     text-align: center;
     font-size: 30px;
-    color: rgb(250, 251, 235);
+    color: rgb(255, 255, 255);
 }
 
 .bottom-right {
     position: absolute;
-    bottom: 8px;
+    bottom: 40px;
     right: 16px;
 }
 
@@ -75,23 +82,32 @@ img {
 }
 
 .box {
-    flex: 1 0 0;
-    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 20 0 300px;
+    padding: 15px;
     text-align: center;
-    border-style: solid;
-    border-width: 1px;
+    margin: 10px;
 }
 
 .box header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
     padding: 20px;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(35, 66, 53);
     background: rgb(76, 118, 79);
     opacity: .6;
-    color: rgb(250, 251, 235);
+    color: rgb(255, 255, 255);
 }
 
 .box p {
     padding: 10px;
-    background: rgb(250, 251, 235);
+    border-style: solid;
+    border-color: rgb(35, 66, 53);
+    background: rgb(255, 255, 255);
     color: rgb(35, 66, 53);
 }
 
@@ -100,4 +116,11 @@ h1 {
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(35, 66, 53);
+ }
+
+ @media screen and (max-width: 768px) {
+    main,
+    nav {
+        flex-direction: row;
+    }
  }
