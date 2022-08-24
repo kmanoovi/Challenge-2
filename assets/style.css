@@ -1,26 +1,47 @@
-* {
-    box-sizing: border-box;
+root {
+    font-size: 12px;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+/* BODY */
+
+/* */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 2%;
     background-color: rgb(118, 141, 118);
-}
-
-main {
-    display: flex;
-    margin-top: 2%;
+    min-height: auto;
+    line-height: 2;
+    font-size: 12px;
 }
 
 .mountain {
-    background-image: url("./Header-IMG.jpeg");
+    display: flex;
+    flex-direction: column;
+    background-image:  url("./photo-of-me.jpeg"), url("./Header-IMG.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     border-style: solid;
     border-color: rgb(76, 118, 79);
     min-height: 600px;
 }
+
+
+main {
+    display: flex;
+    margin-top: 2%;
+}
+
+
 
 .header {
     font-size: 300%;
@@ -29,18 +50,36 @@ main {
     font-style: italic;
     display: flex;
     flex: 3 0 100px;
+    border: solid 2px pink;
+}
+.baseline {
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px yellow;
+    /* align-items:flex-end; */
+    margin: 2em 1em 3em;
 }
 
-.button {
-    border-style: solid;
-    border-color: white;
-    padding: 30px;
+.navbar {
+    /* font-size: 3em; */
+    /* font-weight: 300; */
+    /* border-style: solid;
+    border-color: white; */
+    /* padding: 30px; */
     text-align: center;
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    margin: 0px;
+    display: flex;
+    align-items: center;
+    /* margin: 0px; */
     cursor: pointer;
+    border: solid 2px green;
+}
+
+.navbar a {
+    margin: 0 2em;
+
+}
+.navbar a button {
+    font-size: 2em;
 }
 
 button:hover {
@@ -48,37 +87,19 @@ button:hover {
     opacity: 0.9;
 }
 
-nav {
-    margin-left: 1300px;
-    font-size: 200%;
-    font-weight: 300;
-}
-
-.container {
-    position: relative;
+.mountain-name {
+    /* border: solid 2px blueviolet; */
+    /* position: relative; */
     text-align: center;
     font-size: 30px;
     color: rgb(255, 255, 255);
 }
 
-.bottom-right {
-    position: absolute;
-    bottom: 40px;
-    right: 16px;
-}
 
 img {
     max-width: 100%;
     height: 550px;
     box-shadow: 0 4px 8px 0;
-}
-
-.sub-header {
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin: 3px;
-    padding: 3px;
 }
 
 .box {
@@ -118,9 +139,9 @@ h1 {
     color:rgb(35, 66, 53);
  }
 
- @media screen and (max-width: 768px) {
+ /* @media screen and (max-width: 768px) {
     main,
     nav {
         flex-direction: row;
     }
- }
+ } */
