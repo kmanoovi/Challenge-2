@@ -16,7 +16,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 2%;
-    background-color: rgb(118, 141, 118);
+    background-color: rgb(98, 127, 138);
     min-height: auto;
     line-height: 2;
     font-size: 12px;
@@ -29,7 +29,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     border-style: solid;
-    border-color: rgb(76, 118, 79);
+    border-color: rgb(70, 94, 103);
     min-height: 600px;
 }
 
@@ -83,30 +83,37 @@ button:hover {
 }
 /* BOXES */
 
+h2 {
+    border: solid 2px rgb(70, 94, 103);
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(70, 94, 103);
+ }
+ 
 .box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: column;
     flex: 20 0 300px;
-    padding: 15px;
+    padding: 2px;
     text-align: center;
-    margin: 10px;
 }
 
 .box p {
     padding: 10px;
     border-style: solid;
-    border-color: rgb(35, 66, 53);
+    border-color: rgb(70, 94, 103);
     background: rgb(255, 255, 255);
-    color: rgb(35, 66, 53);
+    color: rgb(70, 94, 103);
     font-size: 1.2em;
 }
 
 /* PROJECT BOXES */
 
 .project1 {
-    border: solid 2px rgb(35, 66, 53);
+    border: solid 2px rgb(70, 94, 103);
     font-size: 1.5em;
     padding: 20px;
     margin: 1px;
@@ -116,7 +123,7 @@ button:hover {
 }
 
 .project2 {
-    border: solid 2px rgb(35, 66, 53);
+    border: solid 2px rgb(70, 94, 103);
     font-size: 1.5em;
     padding: 20px;
     margin: 1px;
@@ -126,7 +133,7 @@ button:hover {
 }
 
 .project3 {
-    border: solid 2px rgb(35, 66, 53);
+    border: solid 2px rgb(70, 94, 103);
     font-size: 1.5em;
     padding: 20px;
     margin: 1px;
@@ -136,7 +143,7 @@ button:hover {
 }
 
 .project4 {
-    border: solid 2px rgb(35, 66, 53);
+    border: solid 2px rgb(70, 94, 103);
     font-size: 1.5em;
     padding: 20px;
     margin: 1px;
@@ -145,23 +152,15 @@ button:hover {
     background-repeat: no-repeat;
 }
 
-h2 {
-    border: solid 2px rgb(35, 66, 53);
-    text-align: center;
-    font-size: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgb(35, 66, 53);
- }
-
  footer {
     text-align: center;
-    color: rgb(35, 66, 53);
+    color: rgb(70, 94, 103);
     padding: 30px;
  }
 
  @media screen and (max-width: 768px) {
     main,
     nav {
-        flex-direction: row;
+        flex-direction: column;
     }
  }
