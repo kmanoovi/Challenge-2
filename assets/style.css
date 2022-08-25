@@ -25,7 +25,7 @@ body {
 .mountain {
     display: flex;
     flex-direction: column;
-    background-image: url("./Header-IMG.jpeg");
+    background-image: url("./images/Header-IMG.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     border-style: solid;
@@ -101,6 +101,48 @@ button:hover {
     background: rgb(255, 255, 255);
     color: rgb(35, 66, 53);
     font-size: 1.2em;
+}
+
+/* PROJECT BOXES */
+
+.project1 {
+    border: solid 2px rgb(35, 66, 53);
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 1px;
+    background-image: url("./images/marble.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project2 {
+    border: solid 2px rgb(35, 66, 53);
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 1px;
+    background-image: url("./images/space.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project3 {
+    border: solid 2px rgb(35, 66, 53);
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 1px;
+    background-image: url("./images/water.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project4 {
+    border: solid 2px rgb(35, 66, 53);
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 1px;
+    background-image: url("./images/wood.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h2 {
