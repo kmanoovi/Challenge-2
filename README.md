@@ -8,6 +8,8 @@ I have completed, and my CVC.
 
 There are active links for contact and the CVC is able to be opened.
 
+The links for the projects lead to a filler link (Google.com) since I do not currently have any projects to link.
+
 The navbar at the top will bring the user to each section, which will become
 more noticeable as the paragraphs increase as time goes on.
 
