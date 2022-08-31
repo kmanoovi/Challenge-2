@@ -1,4 +1,4 @@
-# Challenge-2
+# Katrina's Portfolio
 
 I have designed my online portfolio using tools we have learned in class
 in HTML and CSS.
